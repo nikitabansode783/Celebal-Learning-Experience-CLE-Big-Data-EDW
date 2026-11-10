@@ -1,0 +1,26 @@
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Database files and backups
+*.dump
+*.backup
+*.sql.gz
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
