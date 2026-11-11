@@ -1,0 +1,18 @@
+2026-11-11 17:36:28,511 - INFO - Ingestion started
+2026-11-11 17:36:28,546 - INFO - CSV file loaded
+2026-11-11 17:36:28,726 - INFO - Parquet file saved successfully
+2026-11-11 17:36:28,727 - INFO - Ingestion started
+2026-11-11 17:36:28,731 - INFO - CSV file loaded
+2026-11-11 17:36:28,733 - ERROR - Ingestion failed
+Traceback (most recent call last):
+  File "c:\Users\HP\Desktop\CLE\Celebal-Learning-Experience-CLE-Big-Data-EDW\Week-02-Python\ingest.py", line 43, in ingest
+    df = df.dropna(subset=["id"])
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\pandas\core\frame.py", line 6692, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['id']
+2026-11-11 17:39:12,872 - INFO - Ingestion started
+2026-11-11 17:39:12,900 - INFO - CSV file loaded
+2026-11-11 17:39:13,232 - INFO - Parquet file saved successfully
+2026-11-11 17:39:13,233 - INFO - Ingestion started
+2026-11-11 17:39:13,243 - INFO - CSV file loaded
+2026-11-11 17:39:13,254 - INFO - Parquet file saved successfully

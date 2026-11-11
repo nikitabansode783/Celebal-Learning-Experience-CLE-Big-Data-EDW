@@ -1,0 +1,4 @@
+{
+  "input": "orders.csv",
+  "output": "orders_clean.parquet"
+}
